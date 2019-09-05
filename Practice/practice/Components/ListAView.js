@@ -40,12 +40,7 @@ const  ListAView = () => {
 
 const Style =StyleSheet.create({
     ListItem :{
-        height:50,
-        width:300,
-        borderTopWidth:1,
-        borderBottomWidth:1,
-        borderTopColor:'#000',
-        borderBottomColor:'#000'
+      marginVertical:50
     }
 
 })
