@@ -26,6 +26,8 @@ const  ListAView = () => {
     return(
 
         <FlatList
+            horizontal
+           // horizontal={true}
             //another way to pass the key is to implement keyExtractor
             keyExtractor={(name)=>name.name}
             data={array}
