@@ -8,7 +8,7 @@ const ComponentScreen = () =>{
     return (
         <View>
 
-            <ListAView/>
+            <Assignment/>
         </View>
     );
 };
